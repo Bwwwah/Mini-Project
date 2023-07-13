@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>StockMe</title>
+        <link href="/style/style.css" rel="stylesheet">
+    </head>
+    <body>
+		<header>
+			<h1>StockMe</h1>
+		</header>
+		<nav>
+			<a href="/">Accueil</a>
+		</nav>
+		<main>
+			<h2>Vos rangements</h2>
+				<div class="rangements">
+					<table class="tableau">
+					</table>
+				</div>
+			<h2>Ajouter un rangement</h2>
+				<form class="ajout" action="/enregistrer" method="post">
+					<label for="rangement">Nom :</label>
+        			<input type="text" id="rangement" name="nom_rangement">
+					<div class="button">
+						<button type="submit">Ajouter</button>
+					</div>
+				</form>
+		</main>
+    </body>
+</html>
